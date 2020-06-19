@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+     <category>
+   <pattern>*</pattern>
+       <template><STAR/></template>
+  </category>
+  
+    
+    
+    
+  <category>
+    
+      
+    <pattern>OTHER</pattern>
+    <template>WHAT IS YOUR PROBLEME</template>
+  </category>
+  
+   <category>
+        <pattern>HI</pattern>
+      <template>YOUR SYSTEM IS RUNNING PERFECTLY  YES , NO , OTHERS PLEASE ENTER YOUR CHOICE</template>
+      
+  
+  </category>
+  
+     <category>
+        <pattern>PIC A NUMBER</pattern>
+      <template><random>
+          
+          <li>
+              one
+          </li>
+          
+            <li>
+              two
+          </li>
+          
+            <li>
+              three
+          </li>
+          
+      </random></template>
+      
+  
+  </category>
+  
+  <category>
+
+    
+          
+          <pattern>     MY NAME IS *   </pattern>
+              
+                <template> HI <set   name ="username"><star></star></set>
+                    
+                     </template>
+                     
+                     
+     
+          
+          
+          
+          
+          
+  </category>
+  
+  
+   <category>
+     
+    
+          
+          <pattern>    WHAT IS YOUR NAME   </pattern>
+              
+                <template> MY NAME IS  <get   name ="username"></get>
+                    
+                     </template>
+                     
+                     
+     
+          
+          
+          
+          
+          
+  </category>
+  
+  
+</aiml>
